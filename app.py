@@ -179,6 +179,6 @@ def main():
     else:
         st.write("Please upload the data first")
     st.write("Developer: Sercan Gul (sercan.gul@gmail.com, https://github.com/sercangul)")
-    st.write("Source code: https://github.com/sercangul/viscometer_streamlitapp")
+    st.write("Source code: https://github.com/sercangul/viscometerapi")
 if __name__ == "__main__":
     main()
