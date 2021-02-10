@@ -141,10 +141,10 @@ def main():
         st.write("Coefficient of determination ($R^2$) is", round(r2_PL,3))
         
         #Calculate equivalent sigma600 (DR)
-        sigma600 = calculation = intercept + slope*600*1.7
+        sigma600  = (intercept + slope*600*1.7) / (1.066 * 0.4788)
 
         #Calculate equivalent sigma300 (DR)
-        sigma300 = calculation = intercept + slope*300*1.7
+        sigma300  = (intercept + slope*300*1.7) / (1.066 * 0.4788)
                 
         st.subheader ("Bingham Plastic Model Rheological Constants")
         st.write("Plastic viscosity (PV) is", round(sigma600-sigma300,2) , "$cp$") 
