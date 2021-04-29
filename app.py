@@ -123,7 +123,7 @@ st.write("This web-app is used to analyze API rotational viscometer data by comp
 st.write("The rheological constants for Yield Power-law (YPL - also called Herschel-Bulkley), Power-law, and Bingham-Plastic models are calculated and compared.")
 st.write("Please upload the data using the file uploader on the left side. Please make sure that the data is in excel (.xlsx) format, where the first column is the RPM values and the second column is shear stress values (as viscometer dial readings) for each corresponding RPM.")
 st.write("Below link can be used to download an example dataset for this web-app.")
-
+st.write("NOTE: If you are using a 6-speed viscometer, you might be more interested in apiviscometer.herokuapp.com")
 d = {'RPM': [300,200,100,60,30,6,3], 'Viscometer Dial Readings (DR)': [105.1,90.8,71.7,63.4,55.3,45.8,44]}
 df_template = pd.DataFrame(data=d)
 st.markdown(get_table_download_link(df_template), unsafe_allow_html=True)
