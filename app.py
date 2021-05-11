@@ -92,6 +92,7 @@ def get_table_download_link(df):
     b64 = base64.b64encode(val)  # val looks like b'...'
     return f'<a href="data:application/octet-stream;base64,{b64.decode()}" download="example_data.xlsx">Please click here to download an example dataset for this app as an excel file.</a>' # decode b'abc' => abc
 
+
 def download_link(object_to_download, download_filename, download_link_text):
     """
     Generates a link to download the given object_to_download.
