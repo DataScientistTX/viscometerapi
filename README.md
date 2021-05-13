@@ -1,6 +1,6 @@
 # A Dashboard to Calculate Rheological Properties from any API Viscometer
 
-![alt text](https://github.com/sercangul/apiviscometer/blob/main/gif.gif "Logo Title Text 1")
+![alt text](https://github.com/sercangul/viscometerapi/blob/main/gif.gif "Logo Title Text 1")
 
 ## Installation
 
