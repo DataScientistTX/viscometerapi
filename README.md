@@ -42,7 +42,7 @@ Run the script using Streamlit:
 streamlit run app.py
 ```
 
-The same app is also deployed to Heroku: http://viscometerapi.herokuapp.com/
+
 
 Enter your dial readings obtained from an API viscometer using the template excel sheet and investigate the rheological behavior of your fluid with curve fit results provided for Bingham Plastic, Power-Law and Yield-Power Law rheological models.
 
